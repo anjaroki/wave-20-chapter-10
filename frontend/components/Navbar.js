@@ -1,39 +1,37 @@
-import Link from "next/link";
-
 export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-inverse">
         <div className="container-fluid">
           <div className="navbar-header">
-            <Link className="navbar-brand" href="/">
+            <a className="navbar-brand" href="/">
               Tri Game
-            </Link>
+            </a>
           </div>
           <ul className="nav navbar-nav">
             <li className="active">
-              <Link href="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li>
-              <Link href="#games">Games</Link>
+              <a href="#games">Games</a>
             </li>
             <li>
-              <Link href="#features">Features</Link>
+              <a href="#features">Features</a>
             </li>
             <li>
-              <Link href="#requirements">Requirements</Link>
+              <a href="#requirements">Requirements</a>
             </li>
           </ul>
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <Link href="/register">
+              <a href="/register">
                 <span className=""></span> Register
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href="/login">
+              <a href="/login">
                 <span className=""></span> Login
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

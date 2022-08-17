@@ -228,7 +228,7 @@ export default function home() {
                               <h6 className="person-job">PC Gamer</h6>
                             </div>
                             <div>
-                              <Image src="/twitter.svg" alt="" />
+                              <Image src="" alt="" />
                             </div>
                           </div>
                           <h6 className="text-white">"One of my gaming highlights of the year"</h6>
@@ -248,7 +248,7 @@ export default function home() {
                               <h6 className="person-job">Nerdreactor</h6>
                             </div>
                             <div className="contact-section">
-                              <Image src="/twitter.svg" alt="twitter" />
+                              <Image src="" alt="twitter" />
                             </div>
                           </div>
                           <h6 className="text-white">"The next big thing in the world of streaming and survival games."</h6>
@@ -268,7 +268,7 @@ export default function home() {
                               <h6 className="person-job">Uproxx</h6>
                             </div>
                             <div>
-                              <Image src="/twitter.svg" alt="twitter" />
+                              <Image src="" alt="twitter" />
                             </div>
                           </div>
                           <h6 className="text-white">"Snoop Dogg Playing The Wildy Entertaining SOS is Ridiculous."</h6>
@@ -318,8 +318,8 @@ export default function home() {
                 </a>
               </div>
               <div className="col-lg-6 text-right">
-                <Image style={{ marginRight: 15 }} src="/twitch.svg" alt="" />
-                <Image src="/twitter.svg" alt="" />
+                <Image style={{ marginRight: 15 }} src="" alt="" />
+                <Image src="" alt="" />
               </div>
             </div>
             <div className="row">

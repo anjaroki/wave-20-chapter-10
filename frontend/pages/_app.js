@@ -1,4 +1,4 @@
-import { imageOptimizer } from "next/dist/server/image-optimizer";
+// import { imageOptimizer } from "next/dist/server/image-optimizer";
 import "../styles/globals.css";
 import "../styles/home.css";
 import "../styles/login.css";

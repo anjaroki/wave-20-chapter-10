@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function login() {
   return (
@@ -147,7 +148,7 @@ export default function login() {
                     }}
                   >
                     <div onClick={onGoogleLogin} className="d-flex mx-auto justify-content-center">
-                      <Image style={{ paddingRight: "16px" }} src="/img-google.svg" alt="" />
+                      <Image style={{ paddingRight: "16px" }} src="" alt="" />
                       Google
                     </div>
                   </button>
@@ -164,7 +165,7 @@ export default function login() {
                     }}
                   >
                     <div className="d-flex mx-auto justify-content-center">
-                      <Image style={{ paddingRight: "16px" }} src="/img-fb.svg" alt="" />
+                      <Image style={{ paddingRight: "16px" }} src="" alt="" />
                       Facebook
                     </div>
                   </button>
@@ -172,7 +173,7 @@ export default function login() {
               </div>
             </div>
             <div className="col" style={{ margin: "24px" }}>
-              <Image src="/img-login.svg" alt="" />
+              <Image src="" alt="" />
             </div>
           </div>
         </div>
